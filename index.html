@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="main.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DOM Exercise 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <form id="createList" action="index.html" method="post">
+          Name:<input id="name" type="text" name="foodNames"><br>
+          <input id="fruitInput" type="radio" name="fruit" value="Fruit">Fruit<br>
+          <input id="veggieInput" type="radio" name="veggies" value="Veggie">Veggies<br>
+          <input type="button" name="addFood" value="ENTER" onclick="addItem()">
+        </form>
+      </div>
+      <div class="list">
+        <h2>Fruit</h2>
+        <ul id="fruit">
+        </ul>
+        <h2>Veggies</h2>
+        <ul id="veggies">
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
